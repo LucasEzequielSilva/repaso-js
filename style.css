@@ -33,7 +33,6 @@ h2{
 header{
     display: flex;
     width: 100%;
-    background-color: violet;
     flex-direction: row;
     height: 100vh;
     border-radius: 14px;
@@ -44,14 +43,15 @@ header{
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     width: 100%;
     height: 5rem;
     margin-top: 1rem;
 }
 .nav-link{
-    color: #fff;
+    color: var(--light-color);
+
     padding: .4rem;
     border-radius:var(--border-radius);
     transition: 0.4s;
@@ -67,7 +67,8 @@ ul{
 li{
     list-style: none;
     margin-right: .5rem;
-    color:#fff;
+    color: var(--light-color);
+
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
@@ -106,7 +107,7 @@ li{
     font-size: 0.65rem;
     line-height: 1.5;
     letter-spacing: 0.00938em;
-    color: white;
+    color: var(--light-color);
     text-align: left;
     font-family:var(--primary-font);
     font-weight: 200;
@@ -120,12 +121,22 @@ li{
     /* background gradient jiji */
     background-color: #00b712;
     background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
-    color: #fff0ff;
+    color: var(--light-color);
     border: none;
     cursor: pointer;
 }
+.header-logo{
+    margin-left: 3rem;
+    color:var(--light-color);
+}
 .redes{
-    width: 4rem;
+    min-width: 2rem;
+    min-height: 2rem;
+    margin-right: 3rem;
+    color: var(--light-color);
+}
+.redes>i{
+    cursor:pointer;
 }
 main{
     width: 100%;
