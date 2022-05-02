@@ -1,18 +1,38 @@
-      [{
-        "id": 1,
-        "image":"./assets/hako.jpg",
-        "name": "Gato Programador",
-        "date": "2021-12-12",
-        "description": "Este gato programador se desempeña en la parte funcional del front-end, se especializa en algoritmos y estructura de datos. Desarrolló la aplicación del Gobierno de la ciudad",
-        "place": "Buenos Aires, Argentina",
-        "price": 5
-      },
-      {
-        "id": 2,
-        "image":"./assets/hako.jpg",
-        "name": "Gato Programador",
-        "date": "2021-12-12",
-        "description": "Este gato programador se desempeña en la parte funcional del front-end, se especializa en algoritmos y estructura de datos. Desarrolló la aplicación del Gobierno de la ciudad",
-        "place": "Buenos Aires, Argentina",
-        "price": 5
-      }]
+[
+  {
+    "id": 1,
+    "image": "./assets/hako.jpg",
+    "name": "Gato Programador",
+    "date": "2021-12-12",
+    "description": "Este gato programador se desempeña en la parte funcional del front-end, se especializa en algoritmos y estructura de datos. Desarrolló la aplicación del Gobierno de la ciudad. Hakito es el gato de Lucas.",
+    "place": "Buenos Aires, Argentina",
+    "price": 5
+  },
+  {
+    "id": 2,
+    "image": "./assets/branko.jpg",
+    "name": "Lo que se te cante",
+    "date": "2021-12-12",
+    "description": "Esta es la carta magica de Branko, con ella podes hacer lo que quieras con tu oponente. Branko era mentor en Mindhub.",
+    "place": "Buenos Aires, Argentina",
+    "price": 5
+  },
+  {
+    "id": 3,
+    "image": "./assets/dario.jpg",
+    "name": "Dariooooooooooooo",
+    "date": "2021-12-12",
+    "description": "Esta es la carta especial de Dario, con ella podes avisarle a dario que apague el microfono. Dario era ex alumno de Mindhub.",
+    "place": "Buenos Aires, Argentina",
+    "price": 5
+  },
+  {
+    "id": 4,
+    "image": "./assets/igna.jpg",
+    "name": "Igna",
+    "date": "2021-12-12",
+    "description": "Esta es la carta trampa de Igna, cuando se activa el sprint pasa automaticamente para el lunes. Igna era un ashi en Mindhub",
+    "place": "Buenos Aires, Argentina",
+    "price": 5
+  }
+]

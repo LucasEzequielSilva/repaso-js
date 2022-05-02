@@ -165,6 +165,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     padding:1rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .first-product{
     background-color: #fec84e;
@@ -177,6 +178,14 @@ main{
 .third-product{
     background-color: rgba(100, 74, 74, 0);
     background-image: linear-gradient(48deg, rgba(234, 104, 255, 0.4), rgba(9, 109, 150, 0.4));
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.fourth-product{
+    background-color: #e899dc;
+    background-image: linear-gradient(315deg, #e899dc 0%, #d387ab 74%);        
     background-clip: border-box;
     -webkit-text-fill-color: inherit;
     -o-object-fit: fill;
@@ -200,6 +209,12 @@ margin-left: 1rem;
     -ms-border-radius: var(--border-radius);
     -o-border-radius: var(--border-radius);
     align-self: center;
+    transition: 2s;
+}
+.img-product:hover{
+    transform:translate3d(0px, 0px, 0px) scale3d(1.03, 1.03, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    will-change: transform;
 }
 .h-p-container{
     display: flex;
@@ -227,7 +242,7 @@ margin-left: 1rem;
     align-self: flex-start;
     text-align: left;
     font-family: var(--third-font);
-    font-weight: bold;
+    font-weight: 700;
     color: var(--primary-color);
     font-size: 48px;
     line-height: 1;
