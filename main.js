@@ -1,4 +1,4 @@
-let data = []
+var data = []
 
 async function getProducts() {
     await fetch("./productos.json")
@@ -11,13 +11,13 @@ console.log(data);
 
 
 function mostrarProduct() {
-    let products = []
+    var products = []
     if(data === undefined) {
         products.push(...data)
         console.log(products)
     }
     products.push(...data)
-    let html
+    var html
         products.filter(product=> product.id == 1).map(products =>{ 
             html+=`
             <div class="first-product container-product">
@@ -33,7 +33,7 @@ function mostrarProduct() {
             event.style.transform = 'translate3d(0px, 0px, 0px) scale3d(1.03, 1.03, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)';
         }
         document.querySelector('#product').innerHTML = html
-        let imgProduct = document.querySelector('.img-product')
+        var imgProduct = document.querySelector('.img-product')
         imgProduct.addEventListener('mouseenter', ()=>{
             imgProduct.style.transform = 'translate3d(0px, 0px, 0px) scale3d(1.03, 1.03, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)';
             imgProduct.style.transformStyle = 'preserve-3d';
