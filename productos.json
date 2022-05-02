@@ -1,0 +1,18 @@
+      [{
+        "id": 1,
+        "image":"./assets/hako.jpg",
+        "name": "Gato Programador",
+        "date": "2021-12-12",
+        "description": "Este gato programador se desempeña en la parte funcional del front-end, se especializa en algoritmos y estructura de datos. Desarrolló la aplicación del Gobierno de la ciudad",
+        "place": "Buenos Aires, Argentina",
+        "price": 5
+      },
+      {
+        "id": 2,
+        "image":"./assets/hako.jpg",
+        "name": "Gato Programador",
+        "date": "2021-12-12",
+        "description": "Este gato programador se desempeña en la parte funcional del front-end, se especializa en algoritmos y estructura de datos. Desarrolló la aplicación del Gobierno de la ciudad",
+        "place": "Buenos Aires, Argentina",
+        "price": 5
+      }]
